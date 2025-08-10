@@ -1,0 +1,28 @@
+.about_us_section {
+  height: 90vh;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+}
+.header_about {
+    text-align: center;
+    padding: 20px;
+    font-size: 3vw;
+}
+.cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 70vh;
+  width: 80%;
+  margin: 0 auto;
+}
+.data{
+  font-size: 1.5vw;
+  padding: 20px;
+  width: 40%;
+}
+.description_text {
+  font-size: 1.5vw;
+  line-height: 1.4;
+  width: 60%;
+}

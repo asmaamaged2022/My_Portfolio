@@ -5,16 +5,19 @@
   background-repeat: no-repeat;
   color: white;
   min-height: 100vh;
+  position: relative;
+  overflow: hidden;
 }
 .home::before {
   content: "";
   position: absolute;
   width: 100%;
-  height: 100vh;
+  height: 110vh;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.3);
   z-index: 1;
+  backdrop-filter: blur(8px);
 }
 
 /* header */
@@ -28,6 +31,7 @@
 }
 a {
   text-decoration: none;
+  color: white;
 }
 .header p {
   font-size: 3vw;
