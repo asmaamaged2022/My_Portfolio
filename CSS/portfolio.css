@@ -126,7 +126,6 @@ li:hover {
     gap: 10vh;
     margin-top: 10vh;
     position: relative;
-
   }
   .onPhoto {
     font-size: 6vw;
@@ -152,29 +151,27 @@ li:hover {
     object-fit: cover;
   }
 
-  .header{
-     bottom: 10vh;
+  .header {
+    bottom: 10vh;
     font-size: 8vw;
   }
   .cont {
     bottom: 10vh;
+    gap: 3vh;
     font-size: 4.5vw;
   }
   .background_for_work {
     font-size: 15vw;
-    top:5vh;
+    top: 5vh;
   }
-
 }
 
 @media (max-width: 480px) {
-
   .work {
     flex-direction: column;
     gap: 7vh;
     margin-top: 10vh;
     position: relative;
-
   }
   .work1,
   .work2,
@@ -189,7 +186,7 @@ li:hover {
   }
   .background_for_work {
     font-size: 15vw;
-    top:5vh;
+    top: 5vh;
   }
   .header {
     font-size: 10vw;
@@ -197,6 +194,6 @@ li:hover {
   }
   .cont {
     font-size: 5vw;
+    gap: 3vh;
   }
 }
-
