@@ -120,3 +120,83 @@ li:hover {
   filter: brightness(0.5);
 }
 
+@media (max-width: 768px) {
+  .work {
+    flex-direction: column;
+    gap: 10vh;
+    margin-top: 10vh;
+    position: relative;
+
+  }
+  .onPhoto {
+    font-size: 6vw;
+    bottom: 40%;
+  }
+
+  .work1,
+  .work2,
+  .work3,
+  .work4,
+  .work5,
+  .work6 {
+    width: 70vw;
+    max-width: 100%;
+    height: 45vw;
+    min-height: 180px;
+    margin: 0 auto;
+  }
+
+  .work img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .header{
+     bottom: 10vh;
+    font-size: 8vw;
+  }
+  .cont {
+    bottom: 10vh;
+    font-size: 4.5vw;
+  }
+  .background_for_work {
+    font-size: 15vw;
+    top:5vh;
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  .work {
+    flex-direction: column;
+    gap: 7vh;
+    margin-top: 10vh;
+    position: relative;
+
+  }
+  .work1,
+  .work2,
+  .work3,
+  .work4,
+  .work5,
+  .work6 {
+    height: 40vw;
+    min-height: 120px;
+    width: 85vw;
+    max-width: 100%;
+  }
+  .background_for_work {
+    font-size: 15vw;
+    top:5vh;
+  }
+  .header {
+    font-size: 10vw;
+    margin-top: 5vh;
+  }
+  .cont {
+    font-size: 5vw;
+  }
+}
+
