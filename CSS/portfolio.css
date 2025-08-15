@@ -1,0 +1,122 @@
+.WorkBox {
+  background-color: rgb(44, 43, 43);
+  width: 100%;
+  height: auto;
+  color: white;
+  position: relative;
+}
+.background_for_work {
+  font-size: 6vw;
+  position: relative;
+  text-align: center;
+  padding: 2% 0;
+  z-index: 1;
+}
+.WorkBox::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  backdrop-filter: blur(3px);
+}
+.header,
+.cont,
+.work {
+  position: relative;
+  z-index: 3;
+}
+.header {
+  font-size: 4vw;
+  position: relative;
+  text-align: center;
+  bottom: 15vh;
+}
+.cont {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  list-style: none;
+  gap: 2%;
+  font-size: 1.6vw;
+  position: relative;
+  bottom: 20vh;
+}
+li {
+  border-bottom: 2px solid transparent;
+
+}
+li:hover {
+  color: rgb(173, 52, 130);
+  border-bottom: 2px solid rgb(173, 52, 130);
+}
+.work {
+  position: relative;
+  bottom: 15vh;
+  width: 100%;
+  padding: 5vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 10vh;
+}
+.work img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.work1,
+.work2,
+.work3,
+.work4,
+.work5,
+.work6 {
+  width: 400px;
+  height: 400px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px rgb(255, 255, 255);
+  position: relative;
+}
+.work1:hover,
+.work2:hover,
+.work3:hover,
+.work4:hover,
+.work5:hover,
+.work6:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+
+.onPhoto {
+  display: none;
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 3vw;
+}
+.work1:hover .onPhoto,
+.work2:hover .onPhoto,
+.work3:hover .onPhoto,
+.work4:hover .onPhoto,
+.work5:hover .onPhoto,
+.work6:hover .onPhoto {
+  display: block;
+}
+.work1:hover img,
+.work2:hover img,
+.work3:hover img,
+.work4:hover img,
+.work5:hover img,
+.work6:hover img {
+  filter: brightness(0.5);
+}
