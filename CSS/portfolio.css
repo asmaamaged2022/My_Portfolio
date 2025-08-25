@@ -25,19 +25,19 @@
   z-index: 2;
   backdrop-filter: blur(3px);
 }
-.header,
-.cont,
-.work {
+.WorkBox .header,
+.WorkBox .cont,
+.WorkBox .work {
   position: relative;
   z-index: 3;
 }
-.header {
+.WorkBox .header {
   font-size: 4vw;
   position: relative;
   text-align: center;
   bottom: 15vh;
 }
-.cont {
+.WorkBox .cont {
   display: flex;
   justify-content: center;
   margin-top: 5%;
@@ -47,14 +47,14 @@
   position: relative;
   bottom: 20vh;
 }
-li {
+.WorkBox .cont li {
   border-bottom: 2px solid transparent;
 }
-li:hover {
+.WorkBox .cont li:hover {
   color: rgb(173, 52, 130);
   border-bottom: 2px solid rgb(173, 52, 130);
 }
-.work {
+.WorkBox .work {
   position: relative;
   bottom: 15vh;
   width: 100%;
@@ -64,35 +64,35 @@ li:hover {
   justify-content: center;
   gap: 10vh;
 }
-.work img {
+.WorkBox .work img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 10px;
 }
-.work1,
-.work2,
-.work3,
-.work4,
-.work5,
-.work6 {
+.WorkBox .work1,
+.WorkBox .work2,
+.WorkBox .work3,
+.WorkBox .work4,
+.WorkBox .work5,
+.WorkBox .work6 {
   width: 400px;
   height: 300px;
   border-radius: 10px;
   box-shadow: 1px 1px 5px rgb(255, 255, 255);
   position: relative;
 }
-.work1:hover,
-.work2:hover,
-.work3:hover,
-.work4:hover,
-.work5:hover,
-.work6:hover {
+.WorkBox .work1:hover,
+.WorkBox .work2:hover,
+.WorkBox .work3:hover,
+.WorkBox .work4:hover,
+.WorkBox .work5:hover,
+.WorkBox .work6:hover {
   transform: scale(1.05);
   transition: all 0.3s ease;
 }
 
-.onPhoto {
+.WorkBox .onPhoto {
   display: none;
   position: absolute;
   bottom: 50%;
@@ -103,12 +103,12 @@ li:hover {
   border-radius: 5px;
   font-size: 3vw;
 }
-.work1:hover .onPhoto,
-.work2:hover .onPhoto,
-.work3:hover .onPhoto,
-.work4:hover .onPhoto,
-.work5:hover .onPhoto,
-.work6:hover .onPhoto {
+.WorkBox .work1:hover .onPhoto,
+.WorkBox .work2:hover .onPhoto,
+.WorkBox .work3:hover .onPhoto,
+.WorkBox .work4:hover .onPhoto,
+.WorkBox .work5:hover .onPhoto,
+.WorkBox .work6:hover .onPhoto {
   display: block;
 }
 .work1:hover img,
@@ -132,12 +132,12 @@ li:hover {
     bottom: 40%;
   }
 
-  .work1,
-  .work2,
-  .work3,
-  .work4,
-  .work5,
-  .work6 {
+  .WorkBox .work1,
+  .WorkBox .work2,
+  .WorkBox .work3,
+  .WorkBox .work4,
+  .WorkBox .work5,
+  .WorkBox .work6 {
     width: 70vw;
     max-width: 100%;
     height: 45vw;
@@ -145,54 +145,54 @@ li:hover {
     margin: 0 auto;
   }
 
-  .work img {
+  .WorkBox .work img {
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
 
-  .header {
+  .WorkBox .header {
     bottom: 10vh;
     font-size: 8vw;
   }
-  .cont {
+  .WorkBox .cont {
     bottom: 10vh;
     gap: 3vh;
     font-size: 4.5vw;
   }
-  .background_for_work {
+  .WorkBox .background_for_work {
     font-size: 15vw;
     top: 5vh;
   }
 }
 
 @media (max-width: 480px) {
-  .work {
+  .WorkBox .work {
     flex-direction: column;
     gap: 7vh;
     margin-top: 10vh;
     position: relative;
   }
-  .work1,
-  .work2,
-  .work3,
-  .work4,
-  .work5,
-  .work6 {
+  .WorkBox .work1,
+  .WorkBox .work2,
+  .WorkBox .work3,
+  .WorkBox .work4,
+  .WorkBox .work5,
+  .WorkBox .work6 {
     height: 40vw;
     min-height: 120px;
     width: 85vw;
     max-width: 100%;
   }
-  .background_for_work {
+  .WorkBox .background_for_work {
     font-size: 15vw;
     top: 5vh;
   }
-  .header {
+  .WorkBox .header {
     font-size: 10vw;
     margin-top: 5vh;
   }
-  .cont {
+  .WorkBox .cont {
     font-size: 5vw;
     bottom: 8vh;
     gap: 2.5vh;
