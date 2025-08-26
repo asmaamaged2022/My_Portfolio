@@ -1,0 +1,68 @@
+body{
+    background-color:rgb(113, 113, 113);
+    color: white;
+    padding: 20px;
+    margin: 20px;
+
+}
+.button{
+    text-align: center;
+  
+}
+.button button{
+    height: 50px;
+    background-color: rgb(173, 147, 112);
+}
+footer{
+    background-color: rgb(193, 162, 162);
+    text-align: center;
+    height: 100px;
+    
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+  
+}
+.center{
+    text-align: center;
+}
+.box{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+   max-width: 500px ;
+   margin: auto;
+   margin-bottom: 20px;
+}
+button{
+    background-color:purple;
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+    color: white;
+   
+}
+.form{
+     width:500px;
+     margin: auto;
+     padding: 20px;
+     text-align: center;
+  
+}
+input{
+    height: 50px;
+
+}
+input,textarea{
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgb(226, 205, 247);
+    
+
+}
+.block{
+    width: 400px;
+    margin: auto;
+}
+
