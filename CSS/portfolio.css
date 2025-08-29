@@ -49,8 +49,10 @@
 }
 .WorkBox .cont li {
   border-bottom: 2px solid transparent;
+  cursor: pointer;
 }
-.WorkBox .cont li:hover {
+.WorkBox .cont li:hover,
+.WorkBox .cont li.active {
   color: rgb(173, 52, 130);
   border-bottom: 2px solid rgb(173, 52, 130);
 }
@@ -79,7 +81,7 @@
   width: 400px;
   height: 300px;
   border-radius: 10px;
-  box-shadow: 1px 1px 5px rgb(255, 255, 255);
+  box-shadow: 1px 1px 5px  rgb(244, 127, 203);;
   position: relative;
 }
 .WorkBox .work1:hover,
@@ -197,4 +199,88 @@
     bottom: 8vh;
     gap: 2.5vh;
   }
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 95%;
+  height: 90vh;
+  background-color: rgba(0, 0, 0, 0.9);
+  box-shadow: 1px 1px 10px rgb(255, 255, 255);
+  border-radius: 20px;
+}
+.modal span {
+  font-size: 50px;
+  color: white;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  cursor: pointer;
+  z-index: 1001;
+}
+.modal img {
+  width: 80vh;
+  height: 60vh;
+  border-radius: 20px;
+  object-fit: cover;
+  margin: 40px;
+  box-shadow: 1px 1px 10px rgb(255, 255, 255);
+}
+.modal h1 {
+  color: white;
+  font-size: 60px;
+  margin: 40px 0 0 0;
+  text-align: center;
+}
+.modal .container h1 {
+  color: white;
+  font-size: 40px;
+  margin: 50px 0 0 0;
+  text-align: center;
+}
+.modal .container {
+  position: relative;
+  /* overflow: hidden; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  bottom: 50px;
+  height: 100%;
+}
+.modal p {
+  color: white;
+  font-size: 25px;
+  margin: 30px;
+  line-height: 2;
+  /* text-align: center; */
+}
+.modal .right {
+  padding: 20px;
+  text-align: center;
+  height: 80%;
+}
+.modal .desc {
+  padding: 20px;
+  text-align: center;
+}
+.modal .container .right ul {
+  list-style: none;
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+}
+.modal .container .right ul li i {
+  margin-right: 20px;
+  color: white;
+  font-size: 35px;
+}
+.modal .container .right ul li:hover i {
+  color: rgb(180, 87, 148);
+  transform: scale(1.2);
+  transition: all 0.2s ease;
 }

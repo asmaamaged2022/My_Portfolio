@@ -12,6 +12,10 @@
     <link rel="stylesheet" href="CSS/resume/my_skills.css" />
     <link rel="stylesheet" href="CSS/what_i_do.css" />
     <link rel="stylesheet" href="CSS/contact.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
     <title>My Portfolio</title>
   </head>
   <body>
@@ -169,37 +173,72 @@
     <!-- end resume -->
     <!-- start portfolio -->
     <div class="WorkBox">
+      <div class="modal" id="myModal">
+        <span id="closeModal">&times;</span>
+        <h1 id="modalTitle"></h1>
+        <div class="container">
+          <div class="left">
+            <img src="" alt="" id="MyImg" />
+          </div>
+          <div class="right">
+            <h1 id="descTitle"></h1>
+            <p id="desc">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas at
+              ab rerum vel tempore corrupti? Itaque, necessitatibus distinctio.
+              Autem id architecto deserunt voluptas dolore culpa eligendi, dicta
+              nobis distinctio tenetur.
+            </p>
+            <ul>
+              <li>
+                <a href="https://www.facebook.com/asmaa.maged.2022"
+                  ><i class="fa-brands fa-facebook"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://github.com/asmaamaged2022"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/asmaa-maged-a53a28347/"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
       <p class="background_for_work">PORTFOLIO</p>
       <p class="header">My Work</p>
       <ul class="cont">
-        <li>All</li>
-        <li>Design</li>
-        <li>Brand</li>
-        <li>Photos</li>
+        <li id="all">All</li>
+        <li id="design">Design</li>
+        <li id="brand">Brand</li>
+        <li id="photos">Photos</li>
       </ul>
       <div class="work">
-        <div class="work1">
-          <img src="images/download (1).jpeg" alt="work1" />
+        <div class="work1" id="work1">
+          <img src="images/download (1).jpeg" alt="work1" id="image1" class="active" />
           <p class="onPhoto">project 1</p>
         </div>
-        <div class="work2">
-          <img src="images/download (4).jpeg" alt="work2" />
+        <div class="work2" id="work2">
+          <img src="images/download (4).jpeg" alt="work2" id="image2" class="active" />
           <p class="onPhoto">project 2</p>
         </div>
-        <div class="work3">
-          <img src="images/download (3).jpeg" alt="work3" />
-          <p class="onPhoto">project 3</p>      
+        <div class="work3" id="work3">
+          <img src="images/download (3).jpeg" alt="work3" id="image3" class="active" />
+          <p class="onPhoto">project 3</p>
         </div>
-        <div class="work4">
-          <img src="images/download.jpeg" alt="work4" />
+        <div class="work4" id="work4">
+          <img src="images/download.jpeg" alt="work4" id="image4" class="active" />
           <p class="onPhoto">project 4</p>
         </div>
-        <div class="work5">
-          <img src="images/Enjoy every moment.jpeg" alt="work5" />
-          <p class="onPhoto">project 5</p>      
+        <div class="work5" id="work5">
+          <img src="images/Enjoy every moment.jpeg" alt="work5" id="image5" class="active" />
+          <p class="onPhoto">project 5</p>
         </div>
-        <div class="work6">
-          <img src="images/code (1).jpeg" alt="work6" />
+        <div class="work6" id="work6">
+          <img src="images/code (1).jpeg" alt="work6" id="image6" class="active" />
           <p class="onPhoto">project 6</p>
         </div>
       </div>
@@ -313,7 +352,7 @@
       <p>Copyright &copy; 2022a <a href="#">simone</a>. All Rights Reserved.</p>
       <p><a href="#">Terms & Policy</a>| <a href="#">Disclaimer</a></p>
     </footer>
-
+    <script src="JS/portfolio.js"></script>
     <!-- end contact -->
   </body>
 </html>
