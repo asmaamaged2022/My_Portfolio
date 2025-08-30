@@ -71,6 +71,7 @@
   height: 100%;
   object-fit: cover;
   border-radius: 10px;
+  cursor: pointer;
 }
 .WorkBox .work1,
 .WorkBox .work2,
@@ -81,7 +82,7 @@
   width: 400px;
   height: 300px;
   border-radius: 10px;
-  box-shadow: 1px 1px 5px  rgb(244, 127, 203);;
+  box-shadow: 1px 1px 5px rgb(244, 127, 203);
   position: relative;
 }
 .WorkBox .work1:hover,
@@ -112,6 +113,7 @@
 .WorkBox .work5:hover .onPhoto,
 .WorkBox .work6:hover .onPhoto {
   display: block;
+  cursor: pointer;
 }
 .work1:hover img,
 .work2:hover img,
@@ -166,6 +168,71 @@
     font-size: 15vw;
     top: 5vh;
   }
+    .modal .container .right ul li a i {
+    font-size: 35px;
+    margin: 0 10px ;
+  }
+  .modal {
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  .modal::-webkit-scrollbar {
+    width: 5px;
+  }
+  .modal::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-bottom-right-radius: 2000px;
+    border-top-right-radius: 2000px;
+  }
+  .modal::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .modal .container .left img {
+    width: 80vh;
+    height: 300px;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-top: 20vh;
+    box-shadow: 1px 1px 10px rgb(255, 255, 255);
+  }
+  .modal .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* gap: 20px; */
+    bottom: 20px;
+  }
+  .modal span {
+    font-size: 2vw;
+  }
+  .modal .container .right h1 {
+    display: none;
+  }
+  .modal .container .right {
+    height: auto;
+    position: relative;
+    bottom: 10vh;
+  }
+  #modalTitle {
+    font-size: 6vw;
+    margin: 20px 0 0 0;
+    text-align: center;
+  }
+  .modal .container .left {
+    margin: 0 auto;
+  }
+  .modal .container .right p {
+    font-size: 3vw;
+    margin: 20px;
+    line-height: 1.7;
+    text-align: center;
+  }
+  #closeModal {
+    font-size: 40px;
+    top: 10px;
+    right: 30px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -198,6 +265,71 @@
     font-size: 5vw;
     bottom: 8vh;
     gap: 2.5vh;
+  }
+  .modal .container .right ul li a i {
+    font-size: 25px;
+    margin: 0 10px ;
+  }
+  .modal {
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  .modal::-webkit-scrollbar {
+    width: 5px;
+  }
+  .modal::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-bottom-right-radius: 2000px;
+    border-top-right-radius: 2000px;
+  }
+  .modal::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .modal .container .left img {
+    width: 45vh;
+    height: 200px;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-top: 20vh;
+    box-shadow: 1px 1px 10px rgb(255, 255, 255);
+  }
+  .modal .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* gap: 20px; */
+    bottom: 20px;
+  }
+  .modal span {
+    font-size: 2vw;
+  }
+  .modal .container .right h1 {
+    display: none;
+  }
+  .modal .container .right {
+    height: auto;
+    position: relative;
+    bottom: 10vh;
+  }
+  #modalTitle {
+    font-size: 10vw;
+    margin: 20px 0 0 0;
+    text-align: center;
+  }
+  .modal .container .left {
+    margin: 0 auto;
+  }
+  .modal .container .right p {
+    font-size: 5vw;
+    margin: 20px;
+    line-height: 1.5;
+    text-align: center;
+  }
+  #closeModal {
+    font-size: 30px;
+    top: 20px;
+    right: 20px;
   }
 }
 .modal {
