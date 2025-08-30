@@ -286,11 +286,11 @@
     background: transparent;
   }
   .modal .container .left img {
-    width: 45vh;
+    width: 40vh;
     height: 200px;
     border-radius: 20px;
     object-fit: cover;
-    margin-top: 20vh;
+    margin-top: 15vh;
     box-shadow: 1px 1px 10px rgb(255, 255, 255);
   }
   .modal .container {
