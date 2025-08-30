@@ -270,10 +270,10 @@
     font-size: 25px;
     margin: 0 10px ;
   }
-  .modal {
+  /* .modal {
     overflow-y: auto;
     overflow-x: hidden;
-  }
+  } */
   .modal::-webkit-scrollbar {
     width: 5px;
   }
@@ -290,7 +290,7 @@
     height: 200px;
     border-radius: 20px;
     object-fit: cover;
-    margin-top: 15vh;
+    margin-top: 20vh;
     box-shadow: 1px 1px 10px rgb(255, 255, 255);
   }
   .modal .container {
@@ -327,7 +327,7 @@
     text-align: center;
   }
   #closeModal {
-    font-size: 30px;
+    font-size: 35px;
     top: 20px;
     right: 20px;
   }
