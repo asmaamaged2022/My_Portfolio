@@ -172,7 +172,7 @@
     font-size: 35px;
     margin: 0 10px ;
   }
-  .modal {
+  /* .modal {
     overflow-y: auto;
     overflow-x: hidden;
   }
@@ -186,7 +186,7 @@
   }
   .modal::-webkit-scrollbar-track {
     background: transparent;
-  }
+  } */
   .modal .container .left img {
     width: 80vh;
     height: 300px;
@@ -274,7 +274,7 @@
     overflow-y: auto;
     overflow-x: hidden;
   } */
-  .modal::-webkit-scrollbar {
+  /* .modal::-webkit-scrollbar {
     width: 5px;
   }
   .modal::-webkit-scrollbar-thumb {
@@ -284,7 +284,7 @@
   }
   .modal::-webkit-scrollbar-track {
     background: transparent;
-  }
+  } */
   .modal .container .left img {
     width: 40vh;
     height: 200px;
