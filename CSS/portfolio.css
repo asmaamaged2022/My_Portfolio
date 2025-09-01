@@ -168,9 +168,9 @@
     font-size: 15vw;
     top: 5vh;
   }
-    .modal .container .right ul li a i {
+  .modal .container .right ul li a i {
     font-size: 35px;
-    margin: 0 10px ;
+    margin: 0 10px;
   }
   /* .modal {
     overflow-y: auto;
@@ -193,7 +193,7 @@
     border-radius: 20px;
     object-fit: cover;
     margin-top: 20vh;
-    box-shadow: 1px 1px 10px rgb(255, 255, 255);
+    box-shadow: 1px 1px 5px rgb(244, 127, 203);
   }
   .modal .container {
     display: flex;
@@ -267,8 +267,8 @@
     gap: 2.5vh;
   }
   .modal .container .right ul li a i {
-    font-size: 25px;
-    margin: 0 10px ;
+    font-size: 30px;
+    margin: 0 10px;
   }
   /* .modal {
     overflow-y: auto;
@@ -290,8 +290,8 @@
     height: 200px;
     border-radius: 20px;
     object-fit: cover;
-    margin-top: 20vh;
-    box-shadow: 1px 1px 10px rgb(255, 255, 255);
+    margin-top: 10vh;
+    box-shadow: 1px 1px 5px rgb(244, 127, 203);
   }
   .modal .container {
     display: flex;
@@ -342,7 +342,7 @@
   width: 95%;
   height: 90vh;
   background-color: rgba(0, 0, 0, 0.9);
-  box-shadow: 1px 1px 10px rgb(255, 255, 255);
+  box-shadow: 1px 1px 5px rgb(244, 127, 203);
   border-radius: 20px;
 }
 .modal span {
@@ -360,7 +360,7 @@
   border-radius: 20px;
   object-fit: cover;
   margin: 40px;
-  box-shadow: 1px 1px 10px rgb(255, 255, 255);
+  box-shadow: 1px 1px 5px rgb(244, 127, 203);
 }
 .modal h1 {
   color: white;
