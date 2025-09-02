@@ -13,13 +13,13 @@ body{
     height: 50px;
     background-color: rgb(173, 147, 112);
 }
-footer{
+.f{
     background-color: rgb(193, 162, 162);
     text-align: center;
     height: 100px;
     
 }
-h1{
+.h{
     text-align: center;
     text-decoration: underline;
   
@@ -35,7 +35,7 @@ h1{
    margin: auto;
    margin-bottom: 20px;
 }
-button{
+.button{
     background-color:purple;
     border-radius: 10px;
     padding: 10px;
@@ -50,16 +50,14 @@ button{
      text-align: center;
   
 }
-input{
+.i{
     height: 50px;
 
 }
-input,textarea{
+.o{
     width: 100%;
     border-radius: 10px;
     background-color: rgb(226, 205, 247);
-    
-
 }
 .block{
     width: 400px;
